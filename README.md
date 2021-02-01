@@ -4,7 +4,7 @@
 
 The Cypress CYBT-353027-EVAL Evaluation Kit enables you to evaluate and develop single-chip Bluetooth applications using the EZ-BT WICED Module CYBT-353027-02. The CYBT-353027-02 EZ-BT WICED Module is an integrated, fully certified, 12.0 mm x 16.61 mm x 1.70 mm, programmable dual-mode Bluetooth module designed to reduce your time-to-market. The CYBT-353027-02 module utilizes the Cypress CYW20819 silicon device.  Manufactured using advanced CMOS low-power process, the CYW20819 employs high integration to reduce external components, thereby minimizing the device's footprint and cost. This kit helps evaluate device functionality and develop applications quickly for faster time-to-market. CYBT-353027-EVAL can be used as a standalone evaluation kit or can be combined with Arduino-compatible shields.
 
-* CYW20819-based dual-mode (BLE/BR/EDR) Bluetooth 5.0-compliant fully certified module (CYBT-353027-02)
+* CYW20819-based dual-mode (LE/BR/EDR) Bluetooth 5.0-compliant fully certified module (CYBT-353027-02)
 * Arduino compatible headers for hardware expansion
 * User switches and LEDs
 * FCC, ISED, MIC, and CE Certified Module on board (CYBT-353027-02)
