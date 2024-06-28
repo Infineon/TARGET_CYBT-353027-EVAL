@@ -1,5 +1,5 @@
 /*
- * Copyright 2016-2022, Cypress Semiconductor Corporation (an Infineon company) or
+ * Copyright 2016-2024, Cypress Semiconductor Corporation (an Infineon company) or
  * an affiliate of Cypress Semiconductor Corporation.  All rights reserved.
  *
  * This software, including source code, documentation and related
@@ -69,7 +69,9 @@ typedef enum
     WICED_PLATFORM_LED_MAX
 }wiced_platform_led_t;
 
+#ifndef HCI_UART_DEFAULT_BAUD
 #define HCI_UART_DEFAULT_BAUD   115200   /* default baud rate is 115200, that is max supported by dual-channel Cypress USB bridge */
+#endif // HCI_UART_DEFAULT_BAUD
 
 #define WICED_GPIO_BUTTON                                   WICED_P09      /* pin for button interrupts */
 #define WICED_GPIO_PIN_BUTTON                               WICED_GPIO_BUTTON
